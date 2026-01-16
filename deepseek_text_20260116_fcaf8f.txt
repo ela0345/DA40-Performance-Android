@@ -1,0 +1,59 @@
+DA40-Performance-Android/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/
+│   │   │   │       └── da40performance/
+│   │   │   │           ├── MainActivity.kt
+│   │   │   │           ├── ViewPagerAdapter.kt
+│   │   │   │           ├── data/
+│   │   │   │           │   ├── Aircraft.kt
+│   │   │   │           │   ├── AircraftRepository.kt
+│   │   │   │           │   ├── Calculator.kt
+│   │   │   │           │   └── models/
+│   │   │   │           │       ├── PerformanceData.kt
+│   │   │   │           │       └── WeightBalance.kt
+│   │   │   │           └── ui/
+│   │   │   │               ├── fragments/
+│   │   │   │               │   ├── AirspeedsFragment.kt
+│   │   │   │               │   ├── PerformanceFragment.kt
+│   │   │   │               │   └── WeightBalanceFragment.kt
+│   │   │   │               └── viewholders/
+│   │   │   │                   └── AirspeedViewHolder.kt
+│   │   │   ├── res/
+│   │   │   │   ├── drawable/
+│   │   │   │   │   ├── ic_aircraft.xml
+│   │   │   │   │   ├── ic_calculate.xml
+│   │   │   │   │   ├── ic_performance.xml
+│   │   │   │   │   ├── ic_speed.xml
+│   │   │   │   │   └── ic_takeoff.xml
+│   │   │   │   ├── layout/
+│   │   │   │   │   ├── activity_main.xml
+│   │   │   │   │   ├── fragment_airspeeds.xml
+│   │   │   │   │   ├── fragment_performance.xml
+│   │   │   │   │   ├── fragment_weight_balance.xml
+│   │   │   │   │   └── item_airspeed.xml
+│   │   │   │   ├── values/
+│   │   │   │   │   ├── colors.xml
+│   │   │   │   │   ├── strings.xml
+│   │   │   │   │   └── themes.xml
+│   │   │   │   └── xml/
+│   │   │   │       └── data_backup.xml
+│   │   │   └── AndroidManifest.xml
+│   │   ├── test/
+│   │   │   └── java/com/da40performance/ExampleUnitTest.kt
+│   │   └── androidTest/
+│   │       └── java/com/da40performance/ExampleInstrumentedTest.kt
+│   ├── build.gradle.kts
+│   └── proguard-rules.pro
+├── gradle/
+│   └── wrapper/
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── build.gradle.kts
+├── gradle.properties
+├── settings.gradle.kts
+├── README.md
+├── LICENSE
+└── .gitignore
